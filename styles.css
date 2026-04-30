@@ -1,1 +1,176 @@
-aqui van los estilos
+    
+    /* ====== ESTILOS GENERALES ====== */
+body {
+
+  /* Fuente principal de la página */
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* Imagen de fondo */
+  background-image: url("../IMG/fondoChef.png");
+
+  /* Hace que la imagen cubra toda la pantalla */
+  background-size: cover;
+
+  /* Centra la imagen */
+  background-position: center;
+
+  /* ❗ CORREGIDO: evita que la imagen se repita */
+  background-repeat: no-repeat;
+
+  /* Altura de toda la pantalla */
+  height: 100vh;
+
+  /* Quita márgenes por defecto del navegador */
+  margin: 0;
+
+  /* Color del texto general */
+  color: rgb(0, 6, 12);
+}
+
+
+/* ====== CONTENEDOR PRINCIPAL ====== */
+.container {
+
+  /* Ocupa el 80% del ancho de la pantalla */
+  width: 80%;
+
+  /* Centra el contenedor horizontalmente */
+  margin: auto;
+
+  /* Fondo blanco para mejorar la lectura */
+  background: white;
+
+  /* Espacio interno */
+  padding: 20px;
+
+  /* Bordes redondeados */
+  border-radius: 10px;
+
+  /* 🔥 Mejora visual: sombra suave */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+/* ====== SECCIONES ====== */
+.section {
+
+  /* Borde gris claro */
+  border: 1px solid #ddd;
+
+  /* Espacio interno */
+  padding: 15px;
+
+  /* Separación entre secciones */
+  margin-bottom: 20px;
+
+  /* Bordes redondeados */
+  border-radius: 8px;
+}
+
+
+/* ====== TITULO PRINCIPAL ====== */
+.titulo {
+
+  /* Centra el texto */
+  text-align: center;
+
+  /* Degradado de color */
+  background: linear-gradient(to right, red, rgb(0, 255, 64));
+
+  /* Permite aplicar el fondo SOLO al texto */
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Hace el texto transparente para ver el degradado */
+  -webkit-text-fill-color: transparent;
+
+  /* Estilo tipo tarjeta */
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+
+/* ====== IMAGEN PRINCIPAL (CENTRADA) ====== */
+.chile {
+
+  /* Hace que la imagen sea un bloque */
+  display: block;
+
+  /* La centra horizontalmente */
+  margin: auto;
+}
+
+
+/* ====== PÁRRAFO DESTACADO ====== */
+.p1 {
+
+  /* Color llamativo */
+  color: rgb(12, 83, 83);
+
+  /* Tamaño grande */
+  font-size: 2rem;
+}
+
+
+/* ====== SUBTITULOS ====== */
+.subtitulo {
+
+  /* Fondo degradado */
+  background: linear-gradient(to right, rgb(18, 224, 93), rgb(8, 60, 142));
+
+  /* 🔥 Para aplicar el degradado al texto */
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Hace visible el efecto */
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* ====== IMÁGENES GENERALES ====== */
+.todas {
+
+  /* Permite centrar la imagen */
+  display: block;
+  margin: auto;
+
+  /* Tamaño fijo */
+  width: 200px;
+  height: 200px;
+
+  /* 🔥 Evita que la imagen se deforme */
+  object-fit: cover;
+}
+
+
+/* ====== TEXTO CENTRADO ====== */
+.men {
+  text-align: center;
+}
+
+
+/* ====== TEXTO CLARO ====== */
+.l2 {
+
+  /* Color claro (mejor usar sobre fondo oscuro) */
+  color: rgb(3, 0, 10);
+}
+
+
+/* ====== FOOTER ====== */
+footer {
+
+  /* Fondo degradado oscuro */
+  background: linear-gradient(to right, rgb(13, 1, 49), rgb(8, 60, 142));
+
+  /* Texto blanco para contraste */
+  color: white;
+
+  /* Espaciado interno */
+  padding: 15px;
+
+  /* Centra el texto */
+  text-align: center;
+}
