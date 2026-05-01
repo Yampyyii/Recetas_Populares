@@ -85,10 +85,10 @@ body {
   -webkit-text-fill-color: transparent;
 
   /* Estilo tipo tarjeta */
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 8px;
+ 
+ 
+ 
+ 
 }
 
 
@@ -174,3 +174,37 @@ footer {
   /* Centra el texto */
   text-align: center;
 }
+
+.carousel-item {
+  height: 400px; /*Tamaño de carousel*/
+}
+.image { /*Aqui hacemos que todas las imagenes cubran el tamaño del carousel*/
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* CLAVE */
+}
+
+
+.navbar{
+    background-color: black !important;
+    
+}
+.navbar-brand{
+    color: aliceblue;
+}
+
+
+.nav-link{
+    color: aliceblue;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+

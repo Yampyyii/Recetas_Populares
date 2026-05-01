@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"><!--*CDN de Bootstrap: nos permite usar estilos sin instalar nada-->
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <title>Recetario Delicioso.</title>
+</head>
+<body>
+  <h2 class="T-principal">Recetas Populares</h2>
+
+  <body>
+    <!--*Navbar-->
+    <nav class="navbar navbar-expand-lg mi-navbar navbar-dark bg-body-tertiary"> <!--* se agrego mi-navbar-->
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDe
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Recetas</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">P@ll-@res-Comp@ny</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-light" type="submit">Search</button>
+        <!--*Se cambio btn.outline-light para que se vea blanco el search-->
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<br>
+
+
+<!--*Carousel-->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img  class="image" src="../IMG/chilacas.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="image" src="spacio.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="image" src="spacio2.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script><!--*Paquete de Java Script (que incluye Popper para posicionar menús desplegables, popovers y tooltips) antes del cierre de body-->
+
+</body>
+</html>
