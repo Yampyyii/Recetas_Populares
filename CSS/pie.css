@@ -1,0 +1,71 @@
+header{
+    background-color: rgb(194, 155, 231);
+    padding: 10px
+}
+
+body{
+    margin: 0;
+    font-family: cursive;
+    background-color: rgb(5, 0, 15);
+    font-size: 30px;
+}
+.container{
+    padding: 30px;
+    color: rgb(211, 157, 113)
+}
+
+
+.header_title{
+    color: rgb(5, 0, 15);
+    top: 0;
+    right: 0;
+}
+
+h3, p{
+    background-color: rgb(33, 1, 59);
+    margin-bottom: 50px;
+    color: rgb(209, 236, 87);
+    font-size: larger;
+    text-align: center;
+    padding: 11px;
+}
+
+ul.utensilios li{
+    display: inline;
+    place-items: center;
+    padding-right: 200px;
+    font-size: 50px;
+
+}
+
+.card{
+    border: solid 2px rgb(185, 9, 68)
+    padding: 15px;
+    margin: 10px 0;
+    width: 200px;
+}
+
+.card_title{
+    font-size: 18px;
+}
+
+.img{
+    width: 850px;
+    height: auto;
+    object-fit: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 35px;
+}
+
+.footer{
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(194, 155, 231);
+    text-align: center;
+}
+
