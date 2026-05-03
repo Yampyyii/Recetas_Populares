@@ -1,16 +1,21 @@
 header{
     background-color: rgb(194, 155, 231);
-    padding: 10px
+    padding: 0px;
+    font-size: 22px;
+    margin-bottom: 2px;
+    
 }
 
 body{
-    margin: 0;
+    margin: 5px;
     font-family: cursive;
     background-color: rgb(5, 0, 15);
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
 }
 .container{
-    padding: 30px;
+    font-size: 20;
+    padding: 25px;
     color: rgb(211, 157, 113)
 }
 
@@ -22,50 +27,102 @@ body{
 }
 
 h3, p{
-    background-color: rgb(33, 1, 59);
-    margin-bottom: 50px;
-    color: rgb(209, 236, 87);
-    font-size: larger;
     text-align: center;
-    padding: 11px;
+    background-color: rgb(33, 1, 59);
+    margin-top: 1px;
+    margin-bottom: 5px;
+    color: rgb(209, 236, 87);
+    font-size: 20px;
+    padding: 5px;
 }
 
-ul.utensilios li{
-    display: inline;
-    place-items: center;
-    padding-right: 200px;
-    font-size: 50px;
 
+.cards-container{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    border: solid 2px rgb(85, 1, 60);
+    padding: 15px;
+    margin: 15px 0;
+    justify-content: center;
+    
 }
 
 .card{
-    border: solid 2px rgb(185, 9, 68)
-    padding: 15px;
-    margin: 10px 0;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
     width: 200px;
+    height:150px;
+    display: flex;
+    justify-content: center;
 }
 
-.card_title{
-    font-size: 18px;
+.card--batidor{
+    background-image: url("../IMG/batidor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    color:black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card--cuenco{
+    background-image: url(../IMG/cuenco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card--molde{
+    background-image: url(../IMG/molde.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card--licuadora{
+    background-image: url(../IMG/licuadora.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card--nevera{
+    background-image: url(../IMG/nevera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    font-size: 40px;
 }
 
 .img{
-    width: 850px;
+    width: 500px;
     height: auto;
     object-fit: center;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 35px;
-}
+
 
 .footer{
-    padding: 10px;
+    color: rgb(5, 0, 15);
+    padding: 2px;
     grid-template-columns: 1fr 1fr;
     background-color: rgb(194, 155, 231);
     text-align: center;
+    font-size: 15px;
 }
 
