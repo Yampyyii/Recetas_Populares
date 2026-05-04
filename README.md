@@ -1,5 +1,9 @@
 # Recetas_Populares
 Diferentes recetas 
-Brayan Axel Pallares Morales
+Ejotes a la mexicana- Itzel Danelli Barrera Martinez
 
-Christopher Aldair Rosales Lara Flan
+Brayan Axel Pallares Morales 
+
+Christopher Aldair 
+
+Rosales Lara Flan
