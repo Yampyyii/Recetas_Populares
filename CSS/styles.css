@@ -15,7 +15,7 @@ body {
   background-position: center;
 
   /* ❗ CORREGIDO: evita que la imagen se repita */
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 
   /* Altura de toda la pantalla */
   height: 100vh;
@@ -69,13 +69,13 @@ body {
 
 
 /* ====== TITULO PRINCIPAL ====== */
-.titulo {
+.T-principal {
 
   /* Centra el texto */
   text-align: center;
 
   /* Degradado de color */
-  background: linear-gradient(to right, red, rgb(0, 255, 64));
+  background: linear-gradient(to right, rgb(10, 1, 1), rgb(255, 0, 0));
 
   /* Permite aplicar el fondo SOLO al texto */
   background-clip: text;
@@ -85,9 +85,6 @@ body {
   -webkit-text-fill-color: transparent;
 
   /* Estilo tipo tarjeta */
- 
- 
- 
  
 }
 
@@ -174,6 +171,11 @@ footer {
   /* Centra el texto */
   text-align: center;
 }
+
+
+
+
+
 
 .carousel-item {
   height: 400px; /*Tamaño de carousel*/

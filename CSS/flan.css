@@ -1,0 +1,119 @@
+/*todo:Selectores*/
+/**/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../IMG/fondo\ flan.jpg");
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto; /* centra el cuadro */
+    padding: 30px;
+
+    background: #ffffffcc; /* fondo blanco transparente */
+    border-radius: 20px;
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+
+    border: 2px solid #d7ccc8; /* opcional */
+
+}
+
+.contenedor2 {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto; /* centra el cuadro */
+    padding: 30px;
+    text-align: center;
+
+    background: #ffffffcc; /* fondo blanco transparente */
+    border-radius: 20px;
+
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+
+    border: 2px solid #d7ccc8; /* opcional */
+}
+
+
+
+
+.titulo1{
+    color: darkred;
+    text-align: center;
+    font-size: 40px;
+    border: solid 5px rgb(190, 42, 42);
+    background-color: blanchedalmond;
+}
+
+.flan {
+    color: darkred;
+    display: block;
+    margin: 0 auto;
+    border: solid 4px rgb(190, 42, 42);
+}
+
+.titulo2{
+    color: darkred;
+    text-align: left;
+    font-size: 20px;
+    border: solid 2px rgb(190, 42, 42);
+    background-color: blanchedalmond;
+    width: 140px;
+    height: 25px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.instrucciones{
+    color: darkred;
+    text-align: left;
+    font-size: 20px;
+    border: solid 2px rgb(190, 42, 42);
+    background-color: blanchedalmond;
+    width: 140px;
+    height: 25px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid 2px rgb(190, 108, 76);
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-align: left;
+}   
+
+.instrucciones2{
+    color: darkred;
+    text-align: left;
+    font-size: 20px;
+    border: solid 2px rgb(190, 108, 76);
+    background-color: blanchedalmond;
+   
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+   width: 300px;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+   
+.caja-instrucciones {
+    width: 60%;
+    margin: 20px auto;         /* centra el cuadro */
+    padding: 20px;             /* espacio interno */
+    border: 2px solid #ccc;    /* borde */
+    border-radius: 10px;       /* esquinas redondeadas */
+    background-color: #f9f9f9; /* fondo */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* sombra suave */
+}
+
+}
